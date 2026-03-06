@@ -23,23 +23,6 @@ function Navbar() {
     </div>
   );
 }
-const styles = {
-  navbar: {
-    display: "flex",
-    justifyContent: "space-between",
-    padding: "15px",
-    background: "#1976d2",
-    color: "white"
-  },
-  links: {
-    display: "flex",
-    gap: "20px",
-    alignItems: "center"
-  },
-  logo: {
-    margin: 0
-  }
-};
 
 
 export default Navbar;
