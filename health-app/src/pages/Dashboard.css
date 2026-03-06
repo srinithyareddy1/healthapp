@@ -1,0 +1,43 @@
+.dashboard-container {
+  padding: 40px;
+  background-color: #f4f6f8;
+  min-height: 100vh;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.doctor-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.doctor-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.doctor-info h3 {
+  margin: 0;
+}
+
+.book-btn {
+  padding: 10px 20px;
+  border: none;
+  background-color: #1976d2;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.book-btn:hover {
+  background-color: #125ea7;
+}
